@@ -3,7 +3,7 @@ package cn.xxywithpq.lock;
 
 import cn.xxywithpq.delay.DelayUtil;
 import cn.xxywithpq.delay.DelayUtilFactory;
-import cn.xxywithpq.lock.funnel.rate.Funnel;
+import cn.xxywithpq.limiter.funnel.rate.Funnel;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
@@ -24,7 +24,7 @@ public class DelayUtilTest {
 
 
     public void test(Funnel delayUtil) {
-        log.info("delayUtil {}", delayUtil);
+        log.info("delayUtil result {}", delayUtil);
     }
 
 

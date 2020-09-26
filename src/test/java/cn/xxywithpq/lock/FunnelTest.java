@@ -2,8 +2,7 @@ package cn.xxywithpq.lock;
 
 
 import cn.xxywithpq.SimplifyLockSpringBootStarterApplication;
-import cn.xxywithpq.lock.funnel.rate.FunnelRateLimiter;
-import cn.xxywithpq.lock.funnel.rate.SimplifyLock;
+import cn.xxywithpq.limiter.funnel.rate.FunnelRateLimiter;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

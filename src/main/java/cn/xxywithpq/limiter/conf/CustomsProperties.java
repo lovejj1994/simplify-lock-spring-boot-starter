@@ -1,4 +1,4 @@
-package cn.xxywithpq.lock.funnel.rate.conf;
+package cn.xxywithpq.limiter.conf;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
