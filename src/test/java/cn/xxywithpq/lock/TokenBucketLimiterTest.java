@@ -25,7 +25,7 @@ public class TokenBucketLimiterTest {
      */
     @Test
     public void main() throws InterruptedException {
-        int num = 5000;
+        int num = 500;
         CountDownLatch countDownLatch = new CountDownLatch(num);
 
         int[] count = new int[]{0};
