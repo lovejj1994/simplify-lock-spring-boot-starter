@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 cn.xxywithpq.limiter.conf.CustomsProperties,\
-cn.xxywithpq.limiter.funnel.rate.FunnelRateLimiter,\
+cn.xxywithpq.limiter.token.bucket.TokenBucketLimiter,\
 cn.xxywithpq.lock.SimplifyLock
